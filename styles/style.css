@@ -54,6 +54,13 @@ body {
     gap: 50px;
 }
 
+.apresentacao__conteudo2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
 .apresentacao__conteudo__titulo {
     font-size: 2.25rem;
     font-family: var(--fonte-primaria);
@@ -66,6 +73,7 @@ body {
 .apresentacao__conteudo__texto {
     font-size: 1.5rem;
     font-family: var(--font-secundaria);
+    text-align: justify;
 }
 
 .apresentacao__links {
@@ -112,7 +120,7 @@ body {
     background-color:var(--cor-terciaria);
     text-align: center;
     font-family: var(--font-secundaria);
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 400;
 }
 
