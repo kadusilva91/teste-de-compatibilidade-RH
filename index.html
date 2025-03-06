@@ -2,7 +2,6 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
     <link rel="stylesheet" href="./styles/style.css">
@@ -16,22 +15,22 @@
     </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="titulo-destaque">com um Front-end de qualidade!</strong></h1>
-            <p class="apresentacao__conteudo__texto">"Olá! Sou Carlos Silva, analista de dados em constante aprendizado. Com sólida base em Python, SQL e Power BI, estou sempre buscando novas tecnologias para aprimorar minhas habilidades. Atualmente, estou me aprofundando em desenvolvimento front-end com HTML e CSS para criar visualizações mais interativas e personalizadas. Sou proativo e busco desafios que me permitam crescer profissionalmente.</p>
+            <h1 class="apresentacao__conteudo__titulo">Olá, recrutador(a)! Que tal trocarmos os papéis por um momento? <strong class="titulo-destaque">Com a mesma paixão que você busca o talento ideal para sua empresa, eu te convido a testar suas habilidades de recrutamento e descobrir se sou o profissional que você procura!</strong></h1>
+            <p class="apresentacao__conteudo__texto">Me chamo Carlos Silva, analista de dados em constante aprendizado. Com sólida base em Python, SQL e Power BI, estou sempre buscando novas tecnologias para aprimorar minhas habilidades. Atualmente, estou me aprofundando em desenvolvimento front-end com HTML, CSS com JS. E para testar minhas habilidades te convido a responder um mini questionário com 6 (seis) perguntas para ter acesso as minhas redes.</p>
             <div class="apresentacao__links">
-                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
-                <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/carlosesilva1991/">
-                <img src="./assets/linkedin.png">
-                Linkdin</a>
-                <a class="apresentacao__links__navegacao" href="https://github.com/kadusilva91">
-                <img src="./assets/github.png">
-                GitHub</a>
+                <h2 class="apresentacao__links__subtitulo">Podemos começar? </h2>
+                <button id="start-quiz" class="apresentacao__links__button">Iniciar Teste</button>
             </div>
         </section>
-        <img class="apresentacao__imagem" src="./assets/perfil.png" alt="Foto de perfil">
     </main>
     <footer class="rodape">
         <p>Desenvolvido por Carlos Silva</p>
     </footer>
+
+    <script>
+        document.getElementById('start-quiz').addEventListener('click', function() {
+            window.location.href = 'quiz.html';
+        });
+    </script>
 </body>
 </html>
